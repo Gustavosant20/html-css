@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exmplo de hover</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: purple;
+            width: 300px;
+        }
+
+        div:hover{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse aqui em baixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO escondido</p>
+    </div>
+    <p>FIM do exemplo</p>
+</body>
+</html>
